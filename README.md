@@ -1,2 +1,4 @@
 # Stock-Price-Prediction
 Can AI beat the market?
+# Description
+The goal of this model is to built an AI model that can predict future Closing Stock Prices. The dataset used in this project is available for download at https://www.kaggle.com/dgawlik/nyse. This dataset contains the Stock Price information of S&P 500 Companies in the New York Stock Exchange. In the notebook attached, I have used the stock prices of Microsoft (MSFT) to implement the model. However, stock prices of other companies can also be predicted using this model simply by inputting the ticker symbol of any of the companies. The model includes a combination of Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) layers followed by a Dense layer. I have optimized the learning rate and epochs and achieved a Mean Absolute Error (MAE) of 1.21, Mean Squared Error (MSE) of 2.95 and RMSE of 1.71 on the test data.
